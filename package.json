@@ -1,0 +1,27 @@
+{
+  "name": "hanadev-capy1",
+  "version": "1.0.0",
+  "description": "HANA CloudNative Dev - Ep.1 CAP project",
+  "repository": "https://github.com/6of5/hanadev-capy1.git",
+  "author": "HP Seitz <hpseitz@mypro.de>",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^3",
+    "express": "^4",
+    "@sap/hana-client": "^2.4.177"
+  },
+  "scripts": {
+    "start": "npx cds run"
+  },
+  "cds": {
+    "hana": {
+      "deploy-format": "hdbtable",
+      "syntax": "hdi"
+    },
+    "requires": {
+      "db": {
+        "kind": "hana"
+      }
+    }
+  }
+}
