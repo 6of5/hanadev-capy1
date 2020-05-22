@@ -1,16 +1,16 @@
-# CAP bookshop2
+# CAP generated
 _out
-#*.db
+*.db
 connection.properties
-#default-*.json
-#gen/
+default-*.json
+gen/
 node_modules/
 #package-lock.json
 target/
 
 # Web IDE, App Studio
-#.che/
-#.gen/
+.che/
+.gen/
 
 # MTA
 *_mta_build_tmp
